@@ -1,0 +1,40 @@
+<launch>
+  <arg name="use_robot_name"         default="social_robot"/>
+
+  <arg name="dynamixel_usb_port"     default="/dev/dynamixel"/>
+  <arg name="dynamixel_baud_rate"    default="1000000"/>
+
+  <arg name="control_loop_time"         default="0.100"/>
+
+  <arg name="use_platform"           default="true"/>
+  <arg name="use_left_arm"           default="true"/>
+  <arg name="use_right_arm"          default="true"/>
+
+  <arg name="use_moveit"             default="true"/>
+  <arg name="use_moveit_rviz"         default="true"/>
+  <arg name="left_arm_planning_group_name"    default="left_arm"/>
+  <arg name="right_arm_planning_group_name"    default="right_arm"/>
+  <arg name="moveit_sample_duration" default="0.100"/>
+
+  <!---->
+  <group if="$(arg use_moveit)">
+    <include file="$(find social_robot_arm_controller)/launch/social_robot_arm_moveit.launch">
+        <arg name="robot_name"             value="$(arg use_robot_name)"/>
+        <arg name="sample_duration"        value="$(arg moveit_sample_duration)"/>
+        <arg name="use_rviz"               value="$(arg use_moveit_rviz)"/>
+    </include>
+  </group>
+
+  <node name="$(arg use_robot_name)" pkg="social_robot_arm_controller" type="social_robot_arm_controller" output="screen" args="$(arg dynamixel_usb_port) $(arg dynamixel_baud_rate)">
+      <param name="use_platform"       value="$(arg use_platform)"/>
+      <param name="use_left_arm"       value="$(arg use_left_arm)"/>
+      <param name="use_right_arm"      value="$(arg use_right_arm)"/>
+      <param name="use_moveit"         value="$(arg use_moveit)"/>
+      <param name="left_arm_planning_group_name"  value="$(arg left_arm_planning_group_name)"/>
+      <param name="right_arm_planning_group_name"  value="$(arg right_arm_planning_group_name)"/>
+      <param name="control_loop_time"       value="$(arg control_loop_time)"/>
+      <param name="moveit_sample_duration"  value="$(arg moveit_sample_duration)"/>
+      <remap from="~joint_states" to="~arm_states"/>
+  </node>
+
+</launch>

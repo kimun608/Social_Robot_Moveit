@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>social_robot_arm_controller</name>
+  <version>2.0.1</version>
+  <description>Social Robot Arms controller package</description>
+  <license>Apache 2.0</license>
+  <author email="hjkim@robotis.com">Hye-Jong KIM</author>
+  <maintainer email="hjkim@robotis.com">Hye-Jong KIM</maintainer>
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>roscpp</depend>
+  <depend>std_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>gazebo_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>moveit_msgs</depend>
+  <depend>trajectory_msgs</depend>
+  <depend>social_robot_arm_msgs</depend>
+  <depend>moveit_core</depend>
+  <depend>moveit_ros_planning</depend>
+  <depend>moveit_ros_planning_interface</depend>
+  <depend>robotis_manipulator</depend>
+  <depend>social_robot_arm_libs</depend>
+  <depend>cmake_modules</depend>
+  <depend>boost</depend>
+</package>
