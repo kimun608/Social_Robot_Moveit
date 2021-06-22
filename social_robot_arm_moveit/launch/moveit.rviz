@@ -1,0 +1,886 @@
+Panels:
+  - Class: rviz/Displays
+    Help Height: 0
+    Name: Displays
+    Property Tree Widget:
+      Expanded:
+        - /Global Options1
+        - /MotionPlanning1
+        - /MotionPlanning1/Planning Request1
+        - /TF1/Frames1
+      Splitter Ratio: 0.742560029
+    Tree Height: 150
+  - Class: rviz/Help
+    Name: Help
+  - Class: rviz/Views
+    Expanded:
+      - /Current View1
+    Name: Views
+    Splitter Ratio: 0.5
+Toolbars:
+  toolButtonStyle: 2
+Visualization Manager:
+  Class: ""
+  Displays:
+    - Alpha: 0.5
+      Cell Size: 1
+      Class: rviz/Grid
+      Color: 160; 160; 164
+      Enabled: true
+      Line Style:
+        Line Width: 0.0299999993
+        Value: Lines
+      Name: Grid
+      Normal Cell Count: 0
+      Offset:
+        X: 0
+        Y: 0
+        Z: 0
+      Plane: XY
+      Plane Cell Count: 10
+      Reference Frame: <Fixed Frame>
+      Value: true
+    - Acceleration_Scaling_Factor: 1
+      Class: moveit_rviz_plugin/MotionPlanning
+      Enabled: true
+      Move Group Namespace: ""
+      MoveIt_Allow_Approximate_IK: false
+      MoveIt_Allow_External_Program: true
+      MoveIt_Allow_Replanning: false
+      MoveIt_Allow_Sensor_Positioning: false
+      MoveIt_Goal_Tolerance: 0
+      MoveIt_Planning_Attempts: 10
+      MoveIt_Planning_Time: 5
+      MoveIt_Use_Constraint_Aware_IK: true
+      MoveIt_Warehouse_Host: 127.0.0.1
+      MoveIt_Warehouse_Port: 33829
+      MoveIt_Workspace:
+        Center:
+          X: 0
+          Y: 0
+          Z: 0
+        Size:
+          X: 2
+          Y: 2
+          Z: 2
+      Name: MotionPlanning
+      Planned Path:
+        Color Enabled: false
+        Interrupt Display: false
+        Links:
+          All Links Enabled: true
+          Expand Joint Details: false
+          Expand Link Details: false
+          Expand Tree: false
+          Head_Pitch:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          Head_Yaw:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          LElbow_Pitch:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          LElbow_Yaw:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          LFinger_1:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          LFinger_1_2:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          LFinger_2:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          LFinger_2_2:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          LFinger_3:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          LFinger_3_2:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          LHand_base:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          LShoulder_Pitch:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          LShoulder_Roll:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          LWrist_Pitch:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          Link Tree Style: Links in Alphabetic Order
+          Lwrist_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          Omni_wheel_1:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          Omni_wheel_2:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          Omni_wheel_3:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          Omni_wheel_4:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          RElbow_Pitch:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          RElbow_Yaw:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          RFinger_1:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          RFinger_1_2:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          RFinger_2:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          RFinger_2_2:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          RFinger_3:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          RFinger_3_2:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          RHand_base:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          RShoulder_Pitch:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          RShoulder_Roll:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          RWrist_Pitch:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          Rwrist_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          Waist_Pitch:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          Waist_Roll:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          base_footprint:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          base_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+        Loop Animation: true
+        Robot Alpha: 0.5
+        Robot Color: 150; 50; 150
+        Show Robot Collision: false
+        Show Robot Visual: true
+        Show Trail: false
+        State Display Time: 0.05 s
+        Trail Step Size: 1
+        Trajectory Topic: move_group/display_planned_path
+      Planning Metrics:
+        Payload: 1
+        Show Joint Torques: false
+        Show Manipulability: false
+        Show Manipulability Index: false
+        Show Weight Limit: false
+        TextHeight: 0.0799999982
+      Planning Request:
+        Colliding Link Color: 255; 0; 0
+        Goal State Alpha: 1
+        Goal State Color: 250; 128; 0
+        Interactive Marker Size: 0
+        Joint Violation Color: 255; 0; 255
+        Planning Group: right_arm
+        Query Goal State: true
+        Query Start State: false
+        Show Workspace: false
+        Start State Alpha: 1
+        Start State Color: 0; 255; 0
+      Planning Scene Topic: move_group/monitored_planning_scene
+      Robot Description: robot_description
+      Scene Geometry:
+        Scene Alpha: 1
+        Scene Color: 50; 230; 50
+        Scene Display Time: 0.200000003
+        Show Scene Geometry: true
+        Voxel Coloring: Z-Axis
+        Voxel Rendering: Occupied Voxels
+      Scene Robot:
+        Attached Body Color: 150; 50; 150
+        Links:
+          All Links Enabled: true
+          Expand Joint Details: false
+          Expand Link Details: false
+          Expand Tree: false
+          Head_Pitch:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          Head_Yaw:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          LElbow_Pitch:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          LElbow_Yaw:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          LFinger_1:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          LFinger_1_2:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          LFinger_2:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          LFinger_2_2:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          LFinger_3:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          LFinger_3_2:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          LHand_base:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          LShoulder_Pitch:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          LShoulder_Roll:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          LWrist_Pitch:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          Link Tree Style: Links in Alphabetic Order
+          Lwrist_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          Omni_wheel_1:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          Omni_wheel_2:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          Omni_wheel_3:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          Omni_wheel_4:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          RElbow_Pitch:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          RElbow_Yaw:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          RFinger_1:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          RFinger_1_2:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          RFinger_2:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          RFinger_2_2:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          RFinger_3:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          RFinger_3_2:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          RHand_base:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          RShoulder_Pitch:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          RShoulder_Roll:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          RWrist_Pitch:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          Rwrist_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          Waist_Pitch:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          Waist_Roll:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          base_footprint:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          base_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+        Robot Alpha: 0.5
+        Show Robot Collision: false
+        Show Robot Visual: true
+      Value: true
+      Velocity_Scaling_Factor: 1
+    - Class: rviz/MarkerArray
+      Enabled: true
+      Marker Topic: /rearrange_node/markers
+      Name: MarkerArray
+      Namespaces:
+        {}
+      Queue Size: 100
+      Value: true
+    - Class: rviz/MarkerArray
+      Enabled: true
+      Marker Topic: /relocation/request_view
+      Name: MarkerArray
+      Namespaces:
+        {}
+      Queue Size: 100
+      Value: true
+    - Class: rviz/MarkerArray
+      Enabled: true
+      Marker Topic: /relocation/response_view
+      Name: MarkerArray
+      Namespaces:
+        {}
+      Queue Size: 100
+      Value: true
+    - Alpha: 1
+      Autocompute Intensity Bounds: true
+      Autocompute Value Bounds:
+        Max Value: 1.25111735
+        Min Value: -2.74617958
+        Value: true
+      Axis: X
+      Channel Name: intensity
+      Class: rviz/LaserScan
+      Color: 204; 0; 0
+      Color Transformer: FlatColor
+      Decay Time: 0
+      Enabled: true
+      Invert Rainbow: false
+      Max Color: 255; 255; 255
+      Max Intensity: 4096
+      Min Color: 0; 0; 0
+      Min Intensity: 0
+      Name: LaserScan
+      Position Transformer: XYZ
+      Queue Size: 10
+      Selectable: true
+      Size (Pixels): 3
+      Size (m): 0.00999999978
+      Style: Flat Squares
+      Topic: /urg_node/scan
+      Unreliable: false
+      Use Fixed Frame: true
+      Use rainbow: true
+      Value: true
+    - Alpha: 0.699999988
+      Class: rviz/Map
+      Color Scheme: map
+      Draw Behind: false
+      Enabled: true
+      Name: Map
+      Topic: /map
+      Unreliable: false
+      Use Timestamp: false
+      Value: true
+    - Class: rviz/TF
+      Enabled: true
+      Frame Timeout: 15
+      Frames:
+        All Enabled: false
+        Head_Pitch:
+          Value: false
+        Head_Yaw:
+          Value: false
+        LElbow_Pitch:
+          Value: false
+        LElbow_Yaw:
+          Value: false
+        LFinger_1:
+          Value: false
+        LFinger_1_2:
+          Value: false
+        LFinger_2:
+          Value: false
+        LFinger_2_2:
+          Value: false
+        LFinger_3:
+          Value: false
+        LFinger_3_2:
+          Value: false
+        LHand_base:
+          Value: true
+        LShoulder_Pitch:
+          Value: false
+        LShoulder_Roll:
+          Value: false
+        LWrist_Pitch:
+          Value: false
+        Lwrist_link:
+          Value: false
+        Omni_wheel_1:
+          Value: false
+        Omni_wheel_2:
+          Value: false
+        Omni_wheel_3:
+          Value: false
+        Omni_wheel_4:
+          Value: false
+        QR:30:
+          Value: true
+        RElbow_Pitch:
+          Value: false
+        RElbow_Yaw:
+          Value: false
+        RFinger_1:
+          Value: false
+        RFinger_1_2:
+          Value: false
+        RFinger_2:
+          Value: false
+        RFinger_2_2:
+          Value: false
+        RFinger_3:
+          Value: false
+        RFinger_3_2:
+          Value: false
+        RHand_base:
+          Value: true
+        RShoulder_Pitch:
+          Value: false
+        RShoulder_Roll:
+          Value: false
+        RWrist_Pitch:
+          Value: false
+        Rwrist_link:
+          Value: false
+        Waist_Pitch:
+          Value: false
+        Waist_Roll:
+          Value: false
+        base_footprint:
+          Value: true
+        base_link:
+          Value: false
+        camera_aligned_depth_to_color_frame:
+          Value: true
+        camera_color_frame:
+          Value: true
+        camera_color_optical_frame:
+          Value: true
+        camera_depth_frame:
+          Value: true
+        camera_depth_optical_frame:
+          Value: true
+        camera_link:
+          Value: true
+        left_end_effect_point:
+          Value: true
+        odom:
+          Value: true
+        right_end_effect_point:
+          Value: true
+      Marker Scale: 0.5
+      Name: TF
+      Show Arrows: true
+      Show Axes: true
+      Show Names: true
+      Tree:
+        odom:
+          base_footprint:
+            base_link:
+              Omni_wheel_1:
+                {}
+              Omni_wheel_2:
+                {}
+              Omni_wheel_3:
+                {}
+              Omni_wheel_4:
+                {}
+              Waist_Roll:
+                Waist_Pitch:
+                  Head_Yaw:
+                    Head_Pitch:
+                      camera_link:
+                        camera_aligned_depth_to_color_frame:
+                          camera_color_optical_frame:
+                            QR:30:
+                              {}
+                        camera_color_frame:
+                          {}
+                        camera_depth_frame:
+                          camera_depth_optical_frame:
+                            {}
+                  LShoulder_Pitch:
+                    LShoulder_Roll:
+                      LElbow_Pitch:
+                        LElbow_Yaw:
+                          LWrist_Pitch:
+                            Lwrist_link:
+                              LHand_base:
+                                LFinger_1:
+                                  LFinger_1_2:
+                                    {}
+                                LFinger_2:
+                                  LFinger_2_2:
+                                    {}
+                                LFinger_3:
+                                  LFinger_3_2:
+                                    {}
+                                left_end_effect_point:
+                                  {}
+                  RShoulder_Pitch:
+                    RShoulder_Roll:
+                      RElbow_Pitch:
+                        RElbow_Yaw:
+                          RWrist_Pitch:
+                            Rwrist_link:
+                              RHand_base:
+                                RFinger_1:
+                                  RFinger_1_2:
+                                    {}
+                                RFinger_2:
+                                  RFinger_2_2:
+                                    {}
+                                RFinger_3:
+                                  RFinger_3_2:
+                                    {}
+                                right_end_effect_point:
+                                  {}
+      Update Interval: 0
+      Value: true
+    - Alpha: 1
+      Arrow Length: 0.300000012
+      Axes Length: 0.300000012
+      Axes Radius: 0.00999999978
+      Class: rviz/PoseArray
+      Color: 255; 25; 0
+      Enabled: true
+      Head Length: 0.0700000003
+      Head Radius: 0.0299999993
+      Name: PoseArray
+      Shaft Length: 0.230000004
+      Shaft Radius: 0.00999999978
+      Shape: Arrow (Flat)
+      Topic: /move_base/TebLocalPlannerROS/teb_poses
+      Unreliable: false
+      Value: true
+    - Alpha: 1
+      Buffer Length: 1
+      Class: rviz/Path
+      Color: 25; 255; 0
+      Enabled: true
+      Head Diameter: 0.300000012
+      Head Length: 0.200000003
+      Length: 0.300000012
+      Line Style: Lines
+      Line Width: 0.0299999993
+      Name: Path
+      Offset:
+        X: 0
+        Y: 0
+        Z: 0
+      Pose Color: 255; 85; 255
+      Pose Style: None
+      Radius: 0.0299999993
+      Shaft Diameter: 0.100000001
+      Shaft Length: 0.100000001
+      Topic: /move_base/TebLocalPlannerROS/local_plan
+      Unreliable: false
+      Value: true
+    - Alpha: 1
+      Buffer Length: 1
+      Class: rviz/Path
+      Color: 25; 255; 0
+      Enabled: true
+      Head Diameter: 0.300000012
+      Head Length: 0.200000003
+      Length: 0.300000012
+      Line Style: Lines
+      Line Width: 0.0299999993
+      Name: Path
+      Offset:
+        X: 0
+        Y: 0
+        Z: 0
+      Pose Color: 255; 85; 255
+      Pose Style: None
+      Radius: 0.0299999993
+      Shaft Diameter: 0.100000001
+      Shaft Length: 0.100000001
+      Topic: /move_base/TebLocalPlannerROS/global_plan
+      Unreliable: false
+      Value: true
+    - Alpha: 1
+      Buffer Length: 1
+      Class: rviz/Path
+      Color: 25; 255; 0
+      Enabled: true
+      Head Diameter: 0.300000012
+      Head Length: 0.200000003
+      Length: 0.300000012
+      Line Style: Lines
+      Line Width: 0.0299999993
+      Name: Path
+      Offset:
+        X: 0
+        Y: 0
+        Z: 0
+      Pose Color: 255; 85; 255
+      Pose Style: None
+      Radius: 0.0299999993
+      Shaft Diameter: 0.100000001
+      Shaft Length: 0.100000001
+      Topic: /mobile_path
+      Unreliable: false
+      Value: true
+    - Alpha: 1
+      Arrow Length: 0.300000012
+      Axes Length: 0.300000012
+      Axes Radius: 0.00999999978
+      Class: rviz/PoseArray
+      Color: 255; 25; 0
+      Enabled: true
+      Head Length: 0.0700000003
+      Head Radius: 0.0299999993
+      Name: PoseArray
+      Shaft Length: 0.230000004
+      Shaft Radius: 0.00999999978
+      Shape: Arrow (Flat)
+      Topic: /mobile_pose
+      Unreliable: false
+      Value: true
+    - Class: rviz/Marker
+      Enabled: true
+      Marker Topic: /aruco_tracker/markers
+      Name: Marker
+      Namespaces:
+        obj: true
+      Queue Size: 100
+      Value: true
+    - Class: rviz/Image
+      Enabled: true
+      Image Topic: /camera/color/image_raw
+      Max Value: 1
+      Median window: 5
+      Min Value: 0
+      Name: Image
+      Normalize Range: true
+      Queue Size: 2
+      Transport Hint: raw
+      Unreliable: false
+      Value: true
+  Enabled: true
+  Global Options:
+    Background Color: 48; 48; 48
+    Default Light: true
+    Fixed Frame: odom
+    Frame Rate: 30
+  Name: root
+  Tools:
+    - Class: rviz/Interact
+      Hide Inactive Objects: true
+    - Class: rviz/MoveCamera
+    - Class: rviz/Select
+    - Class: rviz/SetInitialPose
+      Topic: /initialpose
+    - Class: rviz/SetGoal
+      Topic: /move_base_simple/goal
+    - Class: rviz/PublishPoint
+      Single click: true
+      Topic: /clicked_point
+    - Class: rviz/FocusCamera
+  Value: true
+  Views:
+    Current:
+      Class: rviz/XYOrbit
+      Distance: 2.23885012
+      Enable Stereo Rendering:
+        Stereo Eye Separation: 0.0599999987
+        Stereo Focal Distance: 1
+        Swap Stereo Eyes: false
+        Value: false
+      Focal Point:
+        X: 0.244774997
+        Y: -0.0880137086
+        Z: 4.17232513e-07
+      Focal Shape Fixed Size: true
+      Focal Shape Size: 0.0500000007
+      Invert Z Axis: false
+      Name: Current View
+      Near Clip Distance: 0.00999999978
+      Pitch: 0.804795921
+      Target Frame: base_footprint
+      Value: XYOrbit (rviz)
+      Yaw: 3.36177826
+    Saved: ~
+Window Geometry:
+  Displays:
+    collapsed: false
+  Height: 714
+  Help:
+    collapsed: false
+  Hide Left Dock: false
+  Hide Right Dock: false
+  Image:
+    collapsed: false
+  MotionPlanning:
+    collapsed: false
+  MotionPlanning - Trajectory Slider:
+    collapsed: false
+  QMainWindow State: 000000ff00000000fd0000000200000000000002ad0000026bfc0200000007fb000000100044006900730070006c0061007900730100000041000000d7000000d700fffffffb0000000800480065006c00700000000342000000bb0000007300fffffffb0000000a0056006900650077007300000003b0000000b0000000ad00fffffffb0000000c00430061006d00650072006100000002ff000001610000000000000000fb0000001e004d006f00740069006f006e00200050006c0061006e006e0069006e00670100000374000001890000000000000000fb00000044004d006f00740069006f006e0050006c0061006e006e0069006e00670020002d0020005400720061006a006500630074006f0072007900200053006c00690064006500720000000000ffffffff0000004a00fffffffb0000001c004d006f00740069006f006e0050006c0061006e006e0069006e0067010000011e0000018e0000018e00ffffff000000020000039c00000106fc0100000002fb0000000a0049006d00610067006501000002b30000039c0000005c00fffffffb0000000a0049006d00610067006500000002b30000047100000000000000000000039c0000015f00000001000000020000000100000002fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
+  Views:
+    collapsed: false
+  Width: 1615
+  X: 296
+  Y: 300
