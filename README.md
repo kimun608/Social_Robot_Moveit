@@ -4,7 +4,7 @@
   ```
 
 
-# Moveit setting
+# 1. Moveit setting
 
 1. Moveit 설치 - moveit assistance 설치
   ``` bash
@@ -21,7 +21,7 @@
   ```
 
 
-# 소셜 로봇 동작 추출
+# 2. 소셜 로봇 동작 추출
 1. Moveit assistance 실행
   ``` bash
   roslaunch moveit_setup_assistant setup_assistant.launch
@@ -48,7 +48,7 @@
   ```
 
 
-# 추출 동작 로봇에서 실행 (RealWorld)
+# 3.추출 동작 로봇에서 실행 (RealWorld)
 1. service call로 확인
   ``` bash
   ex)
@@ -60,7 +60,7 @@
   ```
 
 
-# 시뮬레이션에서 추출 동작 및 로봇 동작 확인 (Simulation)
+# 3.시뮬레이션에서 추출 동작 및 로봇 동작 확인 (Simulation)
 1. Moveit simulation 작동 
   ``` bash
   roslaunch Social_Robot_Moveit demo.launch
