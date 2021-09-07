@@ -10,9 +10,9 @@
   ``` bash
   http://docs.ros.org/en/kinetic/api/moveit_tutorials/html/doc/getting_started/getting_started.html 
   ```
-2. Social Robot git setting
+2. Social Robot moveit git setting
   ``` bash
-  https://github.com/kimun608/Social_Robot_Moveit.git
+  git clone https://github.com/kimun608/Social_Robot_Moveit.git
   ```
 
 
