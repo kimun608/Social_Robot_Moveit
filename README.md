@@ -14,7 +14,11 @@
   ``` bash
   git clone https://github.com/kimun608/Social_Robot_Moveit.git
   ```
-
+3. catkin make
+  ``` bash
+  cd NAME_WORKSPACE/
+  catkin_make
+  ```
 
 
 # 소셜 로봇 동작 추출
@@ -44,7 +48,7 @@
   ```
 
 
-# 추출 동작 로봇에서 실행
+# 추출 동작 로봇에서 실행 (RealWorld)
 1. service call로 확인
   ``` bash
   ex)
@@ -56,8 +60,22 @@
   ```
 
 
-# 시뮬레이션에서 추출 동작 및 로봇 동작 확인
-1. service call로 확인
+# 시뮬레이션에서 추출 동작 및 로봇 동작 확인 (Simulation)
+1. Moveit simulation 작동 
   ``` bash
-  34234
+  roslaunch Social_Robot_Moveit demo.launch
   ```
+2. 동작 실행 python 실행 
+  ``` bash
+  terminal에서 실행
+  cd NAME_WORKSPACE/src/Social_Robot_Moveit/src/
+  python extuction.py
+  ```
+3. 동작 실행 파일 입력
+  ``` bash
+  2번으로 실행된 python 파일에 동작 json file 입력
+  ex) butterfly
+  
+  위 입력하게 되면 시뮬레이션 동작
+  ```
+  
